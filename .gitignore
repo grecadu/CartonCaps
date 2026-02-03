@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/.vs
+/src/CartonCaps.Referrals.Domain/bin/Debug/net10.0
+/src/CartonCaps.Referrals.Domain/obj
+/src/CartonCaps.Referrals.Infrastructure/bin/Debug/net10.0
+/src/CartonCaps.Referrals.Infrastructure/obj
+/tests/CartonCaps.Referrals.Tests/bin/Debug
+/tests/CartonCaps.Referrals.Tests/obj
+/src/CartonCaps.Referrals.Api/bin/Debug/net10.0
+/src/CartonCaps.Referrals.Api/obj
+/src/CartonCaps.Referrals.Application/bin/Debug/net10.0
+/src/CartonCaps.Referrals.Application/obj

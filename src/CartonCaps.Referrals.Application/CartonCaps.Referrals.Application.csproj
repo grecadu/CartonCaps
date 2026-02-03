@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CartonCaps.Referrals.Domain\CartonCaps.Referrals.Domain.csproj" />
+  </ItemGroup>
+</Project>

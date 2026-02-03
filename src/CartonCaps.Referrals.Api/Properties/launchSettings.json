@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CartonCaps.Referrals.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:65533;http://localhost:65534"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CartonCaps App Store (Dummy)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        .box {
+            border: 1px solid #ddd;
+            padding: 16px;
+            border-radius: 8px;
+            max-width: 640px;
+        }
+
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .muted {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>CartonCaps App Store (Dummy)</h1>
+
+    <div class="box">
+        <p class="muted">This page simulates the App Store landing page for a referral link.</p>
+        <p><strong>Token:</strong> <code id="token">(missing)</code></p>
+        <p><strong>Next step (simulated):</strong> after install, the app would call <code>/v1/referrals/resolve?token=...</code></p>
+
+        <hr />
+
+        <button id="btnResolve">Simulate "First Run" Resolve</button>
+        <pre id="output"></pre>
+    </div>
+
+    <script>
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("token") || "";
+    document.getElementById("token").textContent = token || "(missing)";
+
+    document.getElementById("btnResolve").addEventListener("click", async () => {
+      const out = document.getElementById("output");
+      out.textContent = "Calling /v1/referrals/resolve?token=" + token + " ...";
+
+      try {
+        const res = await fetch("/v1/referrals/resolve?token=" + encodeURIComponent(token));
+        const text = await res.text();
+        out.textContent = "Status: " + res.status + "\n\n" + text;
+      } catch (e) {
+        out.textContent = "Error: " + e;
+      }
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartonCaps.Referrals.Api", "src\CartonCaps.Referrals.Api\CartonCaps.Referrals.Api.csproj", "{B2BBE410-4332-D0E2-E952-F64161AD641A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartonCaps.Referrals.Application", "src\CartonCaps.Referrals.Application\CartonCaps.Referrals.Application.csproj", "{547A0391-4678-F41A-3E97-1D7075F9D44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartonCaps.Referrals.Domain", "src\CartonCaps.Referrals.Domain\CartonCaps.Referrals.Domain.csproj", "{ED4AC6A0-6B5D-45D9-E80C-9B9F50A8B194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartonCaps.Referrals.Infrastructure", "src\CartonCaps.Referrals.Infrastructure\CartonCaps.Referrals.Infrastructure.csproj", "{401EB2E9-38F6-9A3F-2C78-4C9BADE706A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartonCaps.Referrals.Tests", "tests\CartonCaps.Referrals.Tests\CartonCaps.Referrals.Tests.csproj", "{8815B6BE-288B-848A-C14E-6A34B13785D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2BBE410-4332-D0E2-E952-F64161AD641A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BBE410-4332-D0E2-E952-F64161AD641A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BBE410-4332-D0E2-E952-F64161AD641A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BBE410-4332-D0E2-E952-F64161AD641A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547A0391-4678-F41A-3E97-1D7075F9D44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547A0391-4678-F41A-3E97-1D7075F9D44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547A0391-4678-F41A-3E97-1D7075F9D44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547A0391-4678-F41A-3E97-1D7075F9D44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4AC6A0-6B5D-45D9-E80C-9B9F50A8B194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4AC6A0-6B5D-45D9-E80C-9B9F50A8B194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4AC6A0-6B5D-45D9-E80C-9B9F50A8B194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4AC6A0-6B5D-45D9-E80C-9B9F50A8B194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401EB2E9-38F6-9A3F-2C78-4C9BADE706A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401EB2E9-38F6-9A3F-2C78-4C9BADE706A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401EB2E9-38F6-9A3F-2C78-4C9BADE706A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401EB2E9-38F6-9A3F-2C78-4C9BADE706A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8815B6BE-288B-848A-C14E-6A34B13785D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8815B6BE-288B-848A-C14E-6A34B13785D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8815B6BE-288B-848A-C14E-6A34B13785D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8815B6BE-288B-848A-C14E-6A34B13785D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E7F3A20-9657-4B1C-A93C-8CD47597525E}
+	EndGlobalSection
+EndGlobal
